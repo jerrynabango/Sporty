@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Threads
+{% endblock title %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/threads.css' %}">
+{% endblock link %}
+
+{% block content %}
+<div class="container">
+    <h1>Threads</h1>
+    <!-- New Post and Category Filter Form -->
+    <div class="button-group">
+        {% if user.is_authenticated %}
+            <a href="{% url 'created' %}" class="create-post-link">New Post</a>
+        {% endif %}
+        <form method="get" action="{% url 'threads' %}">
+            <div class="label-and-select">
+                <label for="id_category">Filter by Category:</label>
+                <select id="id_category" name="category">
+                    <option value="">All</option>
+                    {% for category in category_choices %}
+                        <option value="{{ category.0 }}">{{ category.1 }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit">Filter</button>
+            <!-- Next button -->
+            <a href="{% if posts.has_next %}?page={{ posts.next_page_number }}{% endif %}" class="next-button">Next</a>
+            <!-- Previous button -->
+            <a href="{% if posts.has_previous %}?page={{ posts.previous_page_number }}{% endif %}" class="prev-button">Previous</a>
+        </form>
+    </div> 
+    <!-- Display Available Categories -->
+    <div class="available-categories" id="sport-categories" style="display: none;">
+        <h3>Available Categories:</h3>
+        <ul>
+            {% for category in category_choices %}
+                <li>{{ category.1 }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    
+    <!-- Existing post list content -->
+    {% for post in posts %}
+    <div class="post" data-category="{{ post.category }}">
+        <a href="{% url 'summary' pk=post.pk %}">
+            <h2 class="post-title">{{ post.title }}</h2>
+        </a>
+        <p class="post-content">{{ post.content }}</p>
+        <p class="post-category">Category: {{ post.get_category_display }}</p>
+        <a href="{% url 'account' pk=post.author.pk %}">
+            <div class="post-author">
+                <img src="{{ post.author.account_picture.url }}" alt="{{ post.author.username }}" class="author-img">
+                <span>{{ post.author }}</span>
+            </div>
+        </a>
+        <p class="post-date">Published on: {{ post.created_at }}</p>
+        <span class="post-views">Views: {{ post.views }}</span>
+    </div>
+    {% empty %}
+    <p>No posts available.</p>
+    {% endfor %}
+</div>
+
+<script>
+    document.getElementById('id_category').addEventListener('change', function() {
+        var selectedCategory = this.value;
+        var posts = document.querySelectorAll('.post');
+        posts.forEach(function(post) {
+            if (selectedCategory && post.dataset.category !== selectedCategory) {
+                post.style.display = 'none';
+            } else {
+                post.style.display = 'block';
+            }
+        });
+    });
+</script>
+{% endblock content %}

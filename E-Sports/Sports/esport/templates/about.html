@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+About Us
+{% endblock title %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/about.css' %}">
+<div class="container">
+    <h1>About Us</h1>
+    <div class="about-section">
+        <div class="about-box red">
+            <h2>Our Mission</h2>
+            <p>We are on a mission to revolutionize the sports community by providing a cutting-edge platform where sports enthusiasts can not only share their experiences, insights, and thoughts but also collaborate, learn, and grow together.<br>
+                Our goal is to empower athletes to express themselves freely, connect with like-minded individuals, and contribute to the ever-evolving landscape of sports.</p>
+        </div>
+        <div class="about-box blue">
+            <h2>Our Vision</h2>
+            <p>Our vision is to create a vibrant community where athletes from all walks of life can come together, connect, and inspire each other through their shared passion for sports. We envision a platform where athletes feel welcomed, supported, and empowered to pursue their dreams and aspirations in the sports world.</p>
+            <p>At E-Sports Blogging Platform, we believe in the power of community to drive positive change and innovation. We strive to create an environment where athletes can collaborate, share knowledge, and push the boundaries of what's possible in the world of sports. Together, we can build a brighter future for sports.</p>
+        </div>
+        <div class="about-box green">
+            <h2>Our Values</h2>
+            <p>At E-Sports Blogging Platform, we are guided by a set of core values that shape everything we do:</p>
+            <ul>
+                <li><strong>Inclusivity:</strong> We believe in creating an inclusive space where everyone feels welcome and respected, regardless of their background or identity.</li>
+                <li><strong>Creativity:</strong> We encourage creativity and innovation, empowering athletes to express themselves freely and explore new ideas.</li>
+                <li><strong>Integrity:</strong> We uphold the highest standards of integrity, transparency, and honesty in all our interactions and decisions.</li>
+                <li><strong>Continuous Improvement:</strong> We are committed to continuously learning, growing, and improving our platform to better serve the sports community.</li>
+            </ul>
+            <p>These values serve as the foundation of our platform and guide us in our mission to create a positive and impactful experience for athletes worldwide.</p>
+        </div>
+        <div class="about-box orange">
+            <h2>Our Team</h2>
+            <p>Meet the dedicated individuals behind the E-Sports Blogging Platform:</p>
+            <ul>
+                <li><strong>Jerry Nabango - CEO:</strong> Nabango is a passionate sports enthusiast and visionary leader who founded Sports Blogging Platform with the goal of revolutionizing the sports community.</li>
+                <li><strong>Trevor Namema - Lead Developer:</strong> Trev is a skilled developer with a passion for creating user-friendly and innovative web experiences. She leads our talented development team in bringing our vision to life.</li>
+                <li><strong>Peter Ndegwa - Head of Design:</strong> Ndegwa is a talented designer with a keen eye for aesthetics and usability. He ensures that our platform not only looks great but also provides an intuitive and engaging user experience.</li>
+                <li><strong>Sofia Wambui - Community Manager:</strong> Sofee is dedicated to building and nurturing our community, ensuring that every athlete feels heard, valued, and supported on our platform.</li>
+            </ul>
+            <p>Together, our team is committed to making the Sports Blogging Platform the best it can be, and we're excited to continue growing and evolving alongside the sports community.</p>
+        </div>
+    </div>
+</div>
+{% endblock content %}

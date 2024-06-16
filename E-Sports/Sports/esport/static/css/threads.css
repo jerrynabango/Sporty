@@ -1,0 +1,189 @@
+/*Threads */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container:hover {
+    background-color: #9acd9a;
+    color: #fff;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: margin 0.3s ease, border-color 0.3s ease;
+}
+
+.post:hover {
+    margin: 15px;
+    border-color: #800080;
+}
+
+.post-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    font-size: 16px;
+    color: #555;
+}
+
+.post-author {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.author-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-date {
+    font-size: 12px;
+    color: #999;
+}
+
+.create-post-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #40826D;
+    text-decoration: none;
+    border: 2px solid #007bff; 
+    border-radius: 10px;
+    padding: 10px 20px; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.create-post-link:hover {
+    background-color: #28a745;
+    color: #fff; 
+}
+
+a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+a:hover {
+    color: #000;
+}
+
+.post-views {
+    font-size: 12px;
+    color: #999;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+}
+
+#id_category {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+button, .create-post-link {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .create-post-link:hover {
+    background-color: #28a745;
+    color: #000000;
+}
+
+/* Categories */
+.available-categories {
+    margin-top: 20px;
+    display: block;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.available-categories h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.available-categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.available-categories ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.available-categories ul li:last-child {
+    margin-bottom: 0;
+}
+
+.next-button {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #ffff00;
+    color: #007bff;
+    border: 1px solid #000000; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 10px;
+}
+
+.next-button:hover {
+    background-color: #2e8b57;
+    color: #fff;
+}
+
+.prev-button {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #000000; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 10px;
+}
+
+.prev-button:hover {
+    background-color: #de3163;
+    color: #fff;
+}

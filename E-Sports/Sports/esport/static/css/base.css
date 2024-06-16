@@ -1,0 +1,216 @@
+/* CSS for body, navbar, and footer */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    position: relative;
+    background-image: url("https://media.istockphoto.com/id/1355687112/photo/various-sport-equipment-gear.jpg?s=612x612&w=0&k=20&c=JOizKZg68gs_7lxjM3YLrngeS-7dGhBXL8b-wDBrYUE=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+nav {
+    background-color: #40E0D0;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.navbar-brand:hover {
+    color: #007bff; 
+}
+
+.nav-account-img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin-left: 20px;
+}
+
+.nav-link a {
+    color: #000;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s;
+}
+
+.nav-link a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+    display: inline-block;
+}
+
+.nav-link + .nav-link {
+    margin-left: 10px;
+}
+
+/* footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container {
+    margin-bottom: 60px;
+}
+
+.footer-icons {
+    margin-bottom: 5px;
+}
+
+.footer-icon {
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+}
+
+.footer-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-icon:hover img {
+    transform: scale(1.1);
+}
+
+
+/* message.css */
+.error, .success {
+    display: flex;
+    align-items: center;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.error__icon, .success__icon {
+    margin-right: 10px;
+}
+
+.error__close, .success__close {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+/* success and error messages */
+.success,
+.error {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 320px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 9999;
+    opacity: 0;
+    animation-duration: 0.5s;
+}
+
+.success {
+    background: #4d94ff;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20px);
+    animation-name: fadeIn, slideIn;
+    animation-fill-mode: forwards;
+}
+
+.error {
+    background: #ff6666;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    animation-name: fadeIn, slideIn;
+    animation-fill-mode: forwards;
+}
+
+.success-hide,
+.error-hide {
+    animation-name: fadeOut, slideOut;
+    animation-fill-mode: forwards;
+}
+
+.success__icon,
+.error__icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.success__icon path,
+.error__icon path {
+    fill: #fff;
+}
+
+.success__title,
+.error__title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.success__close,
+.error__close {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.success__close path,
+.error__close path {
+    fill: #fff;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

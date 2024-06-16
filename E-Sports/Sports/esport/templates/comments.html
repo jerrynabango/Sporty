@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Comments
+{% endblock title %}
+<link rel="stylesheet" href="{% static 'css/comments.css' %}">
+
+{% block content %}
+<div class="container" style="display: flex; justify-content: center; align-items: center; min-height: calc(100vh - 150px);"> <!-- Adjusted height to avoid navbar and footer -->
+    <div class="form-box" style="max-width: 600px; padding: 20px; background-color: #f7f7f7; border-radius: 15px; box-shadow: 0 0 12px rgba(0, 0, 0, 0.1); overflow-y: auto;"> <!-- Added overflow-y:auto to add scrollbar if content exceeds -->
+        <h1 style="font-size: 36px; color: #333; margin-bottom: 30px; text-align: center;">Comments</h1>
+        <div class="details">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.content }}</p>
+        </div>
+
+        <div class="comment-section" style="margin-top: 40px;">
+            <h2 style="font-size: 24px;">Comments</h2>
+            {% if post.comments.all %}
+                {% for comment in post.comments.all %}
+                    <div class="comment-box">
+                        <div class="comment" style="margin-bottom: 20px;">
+                            <p style="margin-bottom: 5px;">{{ comment.text }}</p>
+                            <p style="margin-bottom: 5px;">Commented By: {{ comment.author.username }}</p>
+                            <p style="margin-bottom: 10px;">Posted on: {{ comment.created_at }}</p>
+                            {% if user.is_authenticated and user == comment.author %}
+                                <form method="POST" action="{% url 'delete_comment' comment.id %}">
+                                    {% csrf_token %}
+                                    <button type="submit" style="padding: 10px 20px; background-color: #dc3545; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">Delete</button>
+                                </form>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <p>No comments.</p>
+            {% endif %}
+        </div>
+        
+        {% if user.is_authenticated %}
+        <div class="add-comment" style="margin-top: 40px;">
+            <h3 style="font-size: 24px; margin-bottom: 10px;">Add a Comment</h3>
+            <form method="post" action="{% url 'Commented' post.pk %}" class="comment-form">
+                {% csrf_token %}
+                <textarea name="text" placeholder="Write your comment" rows="4" cols="50" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px; resize: vertical;"></textarea>
+                <button type="submit" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">Submit</button>
+            </form>
+        </div>
+        {% else %}
+        <p style="margin-top: 40px;">Please <a href="{% url 'SignIn' %}" style="color: #007bff; text-decoration: none;">Sign In to your account</a> to comment.</p>
+        {% endif %}    
+    </div>
+</div>
+<style>
+.comment-box {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.comment-box:hover {
+    background-color: #f0f0f0;
+}
+
+.comment {
+    margin-bottom: 5px;
+}
+
+.comment-form {
+    margin-top: 40px;
+}
+</style>
+{% endblock content %}

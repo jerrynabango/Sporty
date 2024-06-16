@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/verify.css' %}" />
+<div class="container">
+    <h2>Verify OTP</h2>
+    <div id="resent-message" style="display: none;">
+        <p>A new OTP has been sent to your email.</p>
+    </div>
+    <form method="post">
+        {% csrf_token %}
+        <label for="otp">Enter OTP:</label><br>
+        <input type="text" id="otp" name="otp"><br><br>
+        <button type="submit">Verify OTP</button>
+    </form>
+    <form id="resend-form" method="post">
+        {% csrf_token %}
+        <input type="hidden" name="resend_otp" value="True">
+    </form>
+    <button type="button" id="resend-button" class="resend-btn">Resend OTP</button>
+</div>
+<script>
+document.getElementById('resend-button').addEventListener('click', function() {
+    document.getElementById('resend-form').submit();
+    document.getElementById('resent-message').style.display = 'block';
+    setTimeout(function() {
+        document.getElementById('resent-message').style.display = 'none';
+    }, 3000); // 3000 milliseconds = 3 seconds
+});
+</script>
+{% endblock %}

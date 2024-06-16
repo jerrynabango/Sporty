@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+User View settings
+{% endblock title %}
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/settings.css' %}">
+{% endblock link %}
+
+{% block content %}
+<div class="container">
+    <h1>User View settings</h1>
+    <form method="post" enctype="multipart/form-data" action="{% url 'settings' %}">
+
+        {% csrf_token %}
+        <label for="username">User Name:</label><br>
+        <input type="text" id="username" name="username" value="{{ user_account.username }}"><br>
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name" value="{{ user_account.first_name }}"><br>
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name" value="{{ user_account.last_name }}"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="{{ user_account.email }}"><br>
+        <label for="status">My Status:</label><br>
+        <input type="text" id="status" name="status" value="{{ user_account.status }}"><br>
+        <label for="account_picture">Account Picture:</label><br>
+        <input type="file" id="account_picture" name="account_picture"><br><br>
+        <button type="submit">Customize</button>
+    </form> 
+</div>
+{% endblock content %}

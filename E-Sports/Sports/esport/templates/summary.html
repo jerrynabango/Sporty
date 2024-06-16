@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load tz %}
+{% block title %}
+{{ post.title }}
+{% endblock title %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/summary.css' %}">
+{% endblock link %}
+
+{% block content %}
+<div class="container">
+    <h1>{{ post.title }}</h1>
+    <p><strong>Category:</strong> {{ post.get_category_display }}</p> 
+    <div class="post-meta">
+        <a href="{% url 'account' pk=post.author.pk %}">
+            <div class="author-info">
+                {% if post.author.account_picture %}
+                <img src="{{ post.author.account_picture.url }}" alt="{{ post.author.username }}" class="author-img">
+                {% endif %}
+                <span class="post-author">{{ post.author }}</span>
+            </div>
+        </a>
+        <br>
+        <span class="post-date">Published on: {{ post.created_at|timezone:"Africa/Nairobi"|date:"F j, Y, g:i a" }}</span>
+        <span class="post-views">Views: {{ post.views }}</span>
+    </div>
+    <div class="post-content">{{ post.content }}</div>
+    {% if user == post.author %}
+    <div class="post-actions">
+        <a href="{% url 'updated' post.pk %}" class="edit-link">Edit</a>
+        <a href="{% url 'delete' post.pk %}" class="delete-link">Delete</a>
+    </div>
+    {% endif %}
+
+    <a href="{% url 'threads' %}" class="back-link">Back</a>
+
+    <!-- Like and Dislike Section -->
+    <div class="like-dislike-section" style="margin-top: 20px;">
+    <a href="{% url 'like_post' pk=post.id %}" class="like-link" style="text-decoration: none;">
+        <img src="{% static 'icons/thumbs_up.png' %}" alt="Thumbs Up" style="width: 20px; height: 20px;">
+    </a>
+    <span class="like-count" style="margin-right: 10px; font-size: 14px; color: #888;">{{ post.likes.count }}</span>
+    <a href="{% url 'dislike_post' pk=post.id %}" class="dislike-link" style="text-decoration: none;">
+        <img src="{% static 'icons/thumbs_down.png' %}" alt="Thumbs Down" style="width: 20px; height: 20px;">
+    </a>
+    <span class="dislike-count" style="font-size: 14px; color: #888;">{{ post.dislikes.count }}</span>
+</div>
+
+    <!-- Comment Section -->
+    <div class="comment-section" style="margin-top: 40px;">
+        <h2 style="font-size: 24px;">Comments</h2>
+    {% if post.comments.all %}
+    {% for comment in post.comments.all %}
+    <div class="comment" style="margin-bottom: 20px; border: 1px solid #ccc; padding: 10px; background-color: #f9f9f9;">
+        <p style="margin-bottom: 5px;">{{ comment.text }}</p>
+        <p style="margin-bottom: 5px;">Commented By: {{ comment.author.username }}</p>
+         <!-- Like and dislike links/buttons -->
+    <a href="{% url 'like_comment' pk=comment.id %}" class="like-comment">
+        <img src="{% static 'icons/thumbs_up.png' %}" alt="Thumbs Up" style="width: 20px; height: 20px;">
+    </a>
+    <span class="like-count">{{ comment.likes.count }}</span>
+    
+    <a href="{% url 'dislike_comment' pk=comment.id %}" class="dislike-comment">
+        <img src="{% static 'icons/thumbs_down.png' %}" alt="Thumbs Down" style="width: 20px; height: 20px;">
+    </a>
+    <span class="dislike-count">{{ comment.dislikes.count }}</span>
+        <!-- Convert UTC time to Kenyan time -->
+        <p style="margin-bottom: 5px;">Posted on: {{ comment.created_at|timezone:"Africa/Nairobi"|date:"F j, Y, g:i a" }}</p>
+        {% if user.is_authenticated and user == comment.author %}
+        <form method="POST" action="{% url 'delete_comment' comment.id %}">
+            {% csrf_token %}
+            <button type="submit" style="padding: 5px 10px; background-color: #dc3545; color: #fff; border: none; border-radius: 3px; cursor: pointer; transition: background-color 0.3s;">Delete</button>
+        </form>
+        {% endif %}
+    </div>
+    {% endfor %}
+    {% else %}
+    <p>No comments.</p>
+    {% endif %}
+</div>
+{% if user.is_authenticated %}
+<div class="add-comment" style="margin-top: 40px;">
+    <h3 style="font-size: 24px; margin-bottom: 10px;">Add a Comment</h3>
+    <form method="post" action="{% url 'Commented' post.pk %}">
+        {% csrf_token %}
+        <textarea name="text" placeholder="Write your comment" rows="5" cols="40" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px; resize: vertical;"></textarea>
+        <button type="submit" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">Comment</button>
+    </form>
+</div>
+{% else %}
+<p style="margin-top: 40px;">Please <a href="{% url 'SignIn' %}" style="color: #007bff; text-decoration: none;">Sign In to your account</a> to comment.</p>
+{% endif %}
+</div>
+{% endblock content %}

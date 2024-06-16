@@ -1,0 +1,1202 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseRedirect",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpRequest",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "EmptyPage",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "PageNotAnInteger",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "gettext",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "pytz",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytz",
+        "description": "pytz",
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "Sports.asgi",
+        "description": "Sports.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "Sports.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-zqbvvif(s10p6u(!7!8l9ttjwh@ue7)25#6v&u*%w6cr#5ld7z'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-zqbvvif(s10p6u(!7!8l9ttjwh@ue7)25#6v&u*%w6cr#5ld7z'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'esport'",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'esport'\n]\nMIDDLEWARE = [",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'Sports.urls'",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "ROOT_URLCONF = 'Sports.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'Sports.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# email configuration",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# email configuration\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# email configuration\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# email configuration\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587  # SMTP port\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'jnabango@gmail.com'  # SMTP username",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# email configuration\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587  # SMTP port\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'jnabango@gmail.com'  # SMTP username\nEMAIL_HOST_PASSWORD = 'vetzufcmrbzgztsm'\nEMAIL_USE_SSL = False\nMEDIA_URL = '/media/'",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587  # SMTP port\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'jnabango@gmail.com'  # SMTP username\nEMAIL_HOST_PASSWORD = 'vetzufcmrbzgztsm'\nEMAIL_USE_SSL = False\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587  # SMTP port\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'jnabango@gmail.com'  # SMTP username\nEMAIL_HOST_PASSWORD = 'vetzufcmrbzgztsm'\nEMAIL_USE_SSL = False\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "EMAIL_PORT = 587  # SMTP port\nEMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'jnabango@gmail.com'  # SMTP username\nEMAIL_HOST_PASSWORD = 'vetzufcmrbzgztsm'\nEMAIL_USE_SSL = False\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST_USER = 'jnabango@gmail.com'  # SMTP username\nEMAIL_HOST_PASSWORD = 'vetzufcmrbzgztsm'\nEMAIL_USE_SSL = False\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'jnabango@gmail.com'  # SMTP username\nEMAIL_HOST_PASSWORD = 'vetzufcmrbzgztsm'\nEMAIL_USE_SSL = False\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'vetzufcmrbzgztsm'\nEMAIL_USE_SSL = False\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_SSL",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "EMAIL_USE_SSL = False\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "Sports.settings",
+        "description": "Sports.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "Sports.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "Sports.urls",
+        "description": "Sports.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('esport.urls')),\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "Sports.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "Sports.wsgi",
+        "description": "Sports.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "Sports.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "esport.migrations.0001_initial",
+        "description": "esport.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='CustomUser',\n            fields=[",
+        "detail": "esport.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "esport.migrations.0002_contactmessage",
+        "description": "esport.migrations.0002_contactmessage",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('esport', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ContactMessage',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100)),",
+        "detail": "esport.migrations.0002_contactmessage",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "esport.migrations.0003_remove_post_dislikes_remove_post_likes_dislike_like",
+        "description": "esport.migrations.0003_remove_post_dislikes_remove_post_likes_dislike_like",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('esport', '0002_contactmessage'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='post',\n            name='dislikes',\n        ),",
+        "detail": "esport.migrations.0003_remove_post_dislikes_remove_post_likes_dislike_like",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "esport.migrations.0004_remove_like_post_remove_like_user_post_dislikes_and_more",
+        "description": "esport.migrations.0004_remove_like_post_remove_like_user_post_dislikes_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('esport', '0003_remove_post_dislikes_remove_post_likes_dislike_like'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='like',\n            name='post',\n        ),",
+        "detail": "esport.migrations.0004_remove_like_post_remove_like_user_post_dislikes_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "esport.migrations.0005_customuser_phone_number",
+        "description": "esport.migrations.0005_customuser_phone_number",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('esport', '0004_remove_like_post_remove_like_user_post_dislikes_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='customuser',\n            name='phone_number',\n            field=models.CharField(blank=True, max_length=15, null=True),\n        ),",
+        "detail": "esport.migrations.0005_customuser_phone_number",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "esport.migrations.0006_remove_customuser_phone_number",
+        "description": "esport.migrations.0006_remove_customuser_phone_number",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('esport', '0005_customuser_phone_number'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='customuser',\n            name='phone_number',\n        ),\n    ]",
+        "detail": "esport.migrations.0006_remove_customuser_phone_number",
+        "documentation": {}
+    },
+    {
+        "label": "EsportConfig",
+        "kind": 6,
+        "importPath": "esport.apps",
+        "description": "esport.apps",
+        "peekOfCode": "class EsportConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'esport'",
+        "detail": "esport.apps",
+        "documentation": {}
+    },
+    {
+        "label": "CommentForm",
+        "kind": 6,
+        "importPath": "esport.forms",
+        "description": "esport.forms",
+        "peekOfCode": "class CommentForm(forms.ModelForm):\n    \"\"\"\n    Comment form.\n    \"\"\"\n    class Meta:\n        model = Comment\n        fields = ['text']\n\"\"\"class ContactForm(forms.Form):\n    name = forms.CharField(label='Your Name', max_length=100)\n    email = forms.EmailField(label='Your Email')",
+        "detail": "esport.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ContactForm",
+        "kind": 6,
+        "importPath": "esport.forms",
+        "description": "esport.forms",
+        "peekOfCode": "class ContactForm(forms.ModelForm):\n    class Meta:\n        model = ContactMessage\n        fields = ['name', 'email', 'message']",
+        "detail": "esport.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUser",
+        "kind": 6,
+        "importPath": "esport.models",
+        "description": "esport.models",
+        "peekOfCode": "class CustomUser(AbstractUser):\n    \"\"\"\n    Custom User model for account management.\n    \"\"\"\n    account_picture = models.ImageField(upload_to='pictures/',\n                                        blank=True, null=True,\n                                        default='account.png')\n    bio = models.TextField(blank=True)\n    class Meta:\n        # Add any custom meta options for your model here",
+        "detail": "esport.models",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "esport.models",
+        "description": "esport.models",
+        "peekOfCode": "class Post(models.Model):\n    \"\"\"\n    Model representing a post.\n    \"\"\"\n    title = models.CharField(max_length=200)\n    author = models.ForeignKey(settings.AUTH_USER_MODEL,\n                               on_delete=models.CASCADE)\n    content = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)",
+        "detail": "esport.models",
+        "documentation": {}
+    },
+    {
+        "label": "Comment",
+        "kind": 6,
+        "importPath": "esport.models",
+        "description": "esport.models",
+        "peekOfCode": "class Comment(models.Model):\n    \"\"\"\n    Model representing a comment on a post.\n    \"\"\"\n    post = models.ForeignKey('Post', on_delete=models.CASCADE,\n                             related_name='comments')\n    author = models.ForeignKey(settings.AUTH_USER_MODEL,\n                               on_delete=models.CASCADE)\n    text = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "esport.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactMessage",
+        "kind": 6,
+        "importPath": "esport.models",
+        "description": "esport.models",
+        "peekOfCode": "class ContactMessage(models.Model):\n    name = models.CharField(max_length=100)\n    email = models.EmailField()\n    message = models.TextField()\n    timestamp = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"{self.name} - {self.email}\"",
+        "detail": "esport.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUser.groups.field.remote_field.related_name",
+        "kind": 5,
+        "importPath": "esport.models",
+        "description": "esport.models",
+        "peekOfCode": "CustomUser.groups.field.remote_field.related_name = 'customuser_groups'\nCustomUser.user_permissions.field.remote_field.related_name = 'customuser_permissions'\n# Fixing clashes for auth.User model\nCustomUser.groups.field.remote_field.related_query_name = 'customuser_groups'\nCustomUser.user_permissions.field.remote_field.related_query_name = 'customuser_permissions'\nclass Post(models.Model):\n    \"\"\"\n    Model representing a post.\n    \"\"\"\n    title = models.CharField(max_length=200)",
+        "detail": "esport.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUser.user_permissions.field.remote_field.related_name",
+        "kind": 5,
+        "importPath": "esport.models",
+        "description": "esport.models",
+        "peekOfCode": "CustomUser.user_permissions.field.remote_field.related_name = 'customuser_permissions'\n# Fixing clashes for auth.User model\nCustomUser.groups.field.remote_field.related_query_name = 'customuser_groups'\nCustomUser.user_permissions.field.remote_field.related_query_name = 'customuser_permissions'\nclass Post(models.Model):\n    \"\"\"\n    Model representing a post.\n    \"\"\"\n    title = models.CharField(max_length=200)\n    author = models.ForeignKey(settings.AUTH_USER_MODEL,",
+        "detail": "esport.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUser.groups.field.remote_field.related_query_name",
+        "kind": 5,
+        "importPath": "esport.models",
+        "description": "esport.models",
+        "peekOfCode": "CustomUser.groups.field.remote_field.related_query_name = 'customuser_groups'\nCustomUser.user_permissions.field.remote_field.related_query_name = 'customuser_permissions'\nclass Post(models.Model):\n    \"\"\"\n    Model representing a post.\n    \"\"\"\n    title = models.CharField(max_length=200)\n    author = models.ForeignKey(settings.AUTH_USER_MODEL,\n                               on_delete=models.CASCADE)\n    content = models.TextField()",
+        "detail": "esport.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUser.user_permissions.field.remote_field.related_query_name",
+        "kind": 5,
+        "importPath": "esport.models",
+        "description": "esport.models",
+        "peekOfCode": "CustomUser.user_permissions.field.remote_field.related_query_name = 'customuser_permissions'\nclass Post(models.Model):\n    \"\"\"\n    Model representing a post.\n    \"\"\"\n    title = models.CharField(max_length=200)\n    author = models.ForeignKey(settings.AUTH_USER_MODEL,\n                               on_delete=models.CASCADE)\n    content = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "detail": "esport.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestViews",
+        "kind": 6,
+        "importPath": "esport.tests",
+        "description": "esport.tests",
+        "peekOfCode": "class TestViews(TestCase):\n    def setUp(self):\n        \"\"\"\n        Test setup method.\n        \"\"\"\n        self.user = CustomUser.objects.create_user(\n            username='testuser',\n            email='test@example.com',\n            password='testpassword',\n            first_name='Jerry',",
+        "detail": "esport.tests",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUser",
+        "kind": 5,
+        "importPath": "esport.tests",
+        "description": "esport.tests",
+        "peekOfCode": "CustomUser = get_user_model()\nclass TestViews(TestCase):\n    def setUp(self):\n        \"\"\"\n        Test setup method.\n        \"\"\"\n        self.user = CustomUser.objects.create_user(\n            username='testuser',\n            email='test@example.com',\n            password='testpassword',",
+        "detail": "esport.tests",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "esport.urls",
+        "description": "esport.urls",
+        "peekOfCode": "urlpatterns = [\n    path('SignIn/', views.SignIn, name='SignIn'),\n    path('SignUp/', views.SignUp, name='SignUp'),\n    path('LogOut/', views.LogOut, name='LogOut'),\n    path('account/<int:pk>/', views.account, name='account'),\n    path('settings/', views.settings, name='settings'),\n    path('', views.threads, name='threads'),\n    path('post/create/', views.created, name='created'),\n    path('post/<int:pk>/', views.summary, name='summary'),\n    path('post/<int:pk>/update/', views.updated, name='updated'),",
+        "detail": "esport.urls",
+        "documentation": {}
+    },
+    {
+        "label": "generate_otp",
+        "kind": 2,
+        "importPath": "esport.utils",
+        "description": "esport.utils",
+        "peekOfCode": "def generate_otp(length=6, request=None):\n    \"\"\"\n    Generate a random OTP to be in use for 6 minutes else it expires.\n    \"\"\"\n    otp = ''.join(random.choices(string.digits, k=length))\n    if request:\n        # Save the current time in the session\n        request.session['otp'] = {\n            'otp_code': otp,\n            'sent_time': datetime.datetime.now()",
+        "detail": "esport.utils",
+        "documentation": {}
+    },
+    {
+        "label": "send_otp_email",
+        "kind": 2,
+        "importPath": "esport.utils",
+        "description": "esport.utils",
+        "peekOfCode": "def send_otp_email(email, otp):\n    \"\"\"Send OTP to the specified email address.\"\"\"\n    subject = \"Your OTP for verification\"\n    message = f\"Your OTP is: {otp}\\n\\nPlease note that this OTP is valid for 5 minutes. If not used within this time, it will expire.\\n\\nKind regards from E-Sports, CEO Jerry Nabango\"\n    from_email = \"jnabango@gmail.com\"\n    to_email = [email]\n    # Send email\n    send_mail(\n        subject,\n        message,",
+        "detail": "esport.utils",
+        "documentation": {}
+    },
+    {
+        "label": "otp",
+        "kind": 5,
+        "importPath": "esport.utils",
+        "description": "esport.utils",
+        "peekOfCode": "otp = generate_otp()\n# Send OTP via email\nsend_otp_email(\"recipient@example.com\", otp)",
+        "detail": "esport.utils",
+        "documentation": {}
+    },
+    {
+        "label": "SignUp",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def SignUp(request):\n    \"\"\"\n    User registration view.\n    \"\"\"\n    if request.method == \"POST\":\n        # Retrieve form inputs\n        first_name = request.POST.get(\"first_name\")\n        last_name = request.POST.get(\"last_name\")\n        username = request.POST.get(\"username\")\n        email_input = request.POST.get(\"email_input\")",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "VerifyOTP",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def VerifyOTP(request):\n    \"\"\"\n    OTP verification view.\n    \"\"\"\n    resent = False\n    if request.method == \"POST\":\n        if 'resend_otp' in request.POST:\n            # User clicked on the resend OTP button\n            new_otp = generate_otp()\n            request.session['otp'] = new_otp",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "is_valid_email",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def is_valid_email(email):\n    \"\"\"\n    Email validation function.\n    \"\"\"\n    return re.match(r'^[\\w\\.-]+@gmail\\.com$', email)\ndef is_valid_phone_number(phone_number):\n    \"\"\"Phone Number validation function.\n    \"\"\"\n    return re.match(r'^\\+[0-9]{10}$', phone_number)\ndef Password_Security(password):",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "is_valid_phone_number",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def is_valid_phone_number(phone_number):\n    \"\"\"Phone Number validation function.\n    \"\"\"\n    return re.match(r'^\\+[0-9]{10}$', phone_number)\ndef Password_Security(password):\n    \"\"\"\n    Password security validation function.\n    \"\"\"\n    if len(password) < 8:\n        return False",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "Password_Security",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def Password_Security(password):\n    \"\"\"\n    Password security validation function.\n    \"\"\"\n    if len(password) < 8:\n        return False\n    if not re.search(r\"[A-Za-z]\", password):\n        return False\n    if not re.search(r\"\\d\", password):\n        return False",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogOut",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def LogOut(request):\n    \"\"\"\n    User logout function.\n    \"\"\"\n    auth.logout(request)\n    messages.success(request, \"You have been successfully logged out.\")\n    return redirect(\"SignIn\")\ndef SignIn(request):\n    \"\"\"\n    User login function.",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "SignIn",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def SignIn(request):\n    \"\"\"\n    User login function.\n    \"\"\"\n    if request.method == \"POST\":\n        username = request.POST.get(\"username\")\n        password = request.POST.get(\"password\")\n        user = auth.authenticate(username=username, password=password)\n        if user is not None:\n            auth.login(request, user)",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "account",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def account(request, pk):\n    \"\"\"\n    account Details function.\n    \"\"\"\n    user_account = get_object_or_404(CustomUser, pk=pk)\n    return render(request, \"account.html\", {\"user_account\": user_account})\n@login_required(login_url=\"SignIn\")\ndef settings(request):\n    \"\"\"\n    User profile settings function.",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def settings(request):\n    \"\"\"\n    User profile settings function.\n    \"\"\"\n    user_account = request.user\n    if request.method == \"POST\":\n        username = request.POST.get(\"username\", \"\")\n        first_name = request.POST.get(\"first_name\", \"\")\n        last_name = request.POST.get(\"last_name\", \"\")\n        email = request.POST.get(\"email\", \"\")",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "threads",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def threads(request):\n    \"\"\"\n    List of all blogs.\n    \"\"\"\n    category_filter = request.GET.get('category')\n    if category_filter:\n        posts = Post.objects.filter(category=category_filter)\n    else:\n        posts = Post.objects.all()\n    # Paginate the queryset",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "summary",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def summary(request, pk):\n    \"\"\"\n    Preview of a post.\n    \"\"\"\n    referer = request.META.get('HTTP_REFERER')\n    if referer and 'summary' in referer:\n        post = get_object_or_404(Post, pk=pk)\n        return render(request, 'summary.html', {'post': post})\n    post = get_object_or_404(Post, pk=pk)\n    post.views += 1",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "created",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def created(request):\n    \"\"\"\n    Create a new Blog.\n    \"\"\"\n    # Retrieve category choices\n    category_choices = Post.CATEGORY_CHOICES\n    if request.method == 'POST':\n        author = request.user\n        title = request.POST.get('title', '')\n        content = request.POST.get('content', '')",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "updated",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def updated(request, pk):\n    \"\"\"\n    Blog update view.\n    \"\"\"\n    post = get_object_or_404(Post, pk=pk)\n    # Checks if the current user is the author of the post\n    if request.user != post.author:\n        messages.error(\n            request, 'Oops! You do not have the permission to update.')\n        return redirect('summary', pk=pk)",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def delete(request, pk):\n    post = get_object_or_404(Post, pk=pk)\n    if request.user != post.author:\n        messages.error(\n            request, 'Oops! You do not have the permission to delete.')\n        return redirect('summary', pk=pk)\n    if request.method == 'POST':\n        post.delete()\n        messages.success(request, 'Blog deleted!')\n        return redirect('threads')",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "Commented",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def Commented(request, pk):\n    \"\"\"\n    Comments on a post.\n    \"\"\"\n    post = get_object_or_404(Post, pk=pk)\n    if request.method == 'POST':\n        form = CommentForm(request.POST)\n        if form.is_valid():\n            comment = form.save(commit=False)\n            comment.post = post",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_comment",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def delete_comment(request, comment_id):\n    \"\"\"\n    Delete a comment.\n    \"\"\"\n    comment = get_object_or_404(Comment, id=comment_id)\n    if request.user == comment.author:\n        comment.delete()\n        messages.success(request, 'Comment deleted!')\n    else:\n        messages.error(request,",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "like_post",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def like_post(request, pk):\n    \"\"\"\n    Like a post.\n    \"\"\"\n    post = get_object_or_404(Post, pk=pk)\n    if request.user not in post.likes.all():\n        post.likes.add(request.user)\n        if request.user in post.dislikes.all():\n            post.dislikes.remove(request.user)\n    return HttpResponseRedirect(request.META.get('HTTP_REFERER', '/'))",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "dislike_post",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def dislike_post(request, pk):\n    \"\"\"\n    Dislike a post.\n    \"\"\"\n    post = get_object_or_404(Post, pk=pk)\n    if request.user not in post.dislikes.all():\n        post.dislikes.add(request.user)\n        if request.user in post.likes.all():\n            post.likes.remove(request.user)\n    return HttpResponseRedirect(request.META.get('HTTP_REFERER', '/'))",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "like_comment",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def like_comment(request, pk):\n    \"\"\"\n    Like a comment.\n    \"\"\"\n    comment = get_object_or_404(Comment, pk=pk)\n    if request.user not in comment.likes.all():\n        comment.likes.add(request.user)\n        if request.user in comment.dislikes.all():\n            comment.dislikes.remove(request.user)\n    return HttpResponseRedirect(request.META.get('HTTP_REFERER', '/'))",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "dislike_comment",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def dislike_comment(request, pk):\n    \"\"\"\n    Dislike a comment.\n    \"\"\"\n    comment = get_object_or_404(Comment, pk=pk)\n    if request.user not in comment.dislikes.all():\n        comment.dislikes.add(request.user)\n        if request.user in comment.likes.all():\n            comment.likes.remove(request.user)\n    return HttpResponseRedirect(request.META.get('HTTP_REFERER', '/'))",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "about_us",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def about_us(request):\n    \"\"\"\n    Bried Details about the website\n    \"\"\"\n    return render(request, 'about.html')\ndef contact_us(request):\n    if request.method == 'POST':\n        form = ContactForm(request.POST)\n        if form.is_valid():\n            form.save()",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "contact_us",
+        "kind": 2,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "def contact_us(request):\n    if request.method == 'POST':\n        form = ContactForm(request.POST)\n        if form.is_valid():\n            form.save()\n            return render(request, 'contact.html', {'form': ContactForm(),\n                                                    'success_message': True})\n        else:\n            return render(request, 'contact.html', {'form': form,\n                                                    'error_message': True})",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUser",
+        "kind": 5,
+        "importPath": "esport.views",
+        "description": "esport.views",
+        "peekOfCode": "CustomUser = get_user_model()\n# Create your views here.\ndef SignUp(request):\n    \"\"\"\n    User registration view.\n    \"\"\"\n    if request.method == \"POST\":\n        # Retrieve form inputs\n        first_name = request.POST.get(\"first_name\")\n        last_name = request.POST.get(\"last_name\")",
+        "detail": "esport.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Sports.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

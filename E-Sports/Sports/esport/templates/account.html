@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Account Details
+{% endblock title %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/account.css' %}">
+{% endblock link %}
+
+{% block content %}
+<div class="container">
+    <h1>Account Details</h1>
+    <div>
+        <h2>{{ user_account.username }}</h2>
+        <p>Firs Name: {{ user_account.first_name }}</p>
+        <p>Last Name: {{ user_account.last_name }}</p>
+        <p>Email: {{ user_account.email }}</p>
+        <p>My Status: {{ user_account.status }}</p>
+        {% if user_account.account_picture %}
+        <img src="{{ user_account.account_picture.url }}" alt="account Picture">
+        {% else %}
+        <p>No account!</p>
+        {% endif %}
+        {% if user.is_authenticated %}
+        {% if user == user_account %}
+        <a href="{% url 'settings' %}" class="settings-button">Update account</a>
+        <a href="{% url 'LogOut' %}" class="LogOut-button">Log Out</a>
+        {% endif %}
+        {% endif %}
+    </div>
+</div>
+{% endblock content %}
